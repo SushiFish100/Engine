@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Doc</title>
+        <script type="module" src="scripts.js"></script>
+        <style type="text/css">
+            html{
+                height:100%;
+                background-color:  #4b4b4b;
+            }
+            .canvasDiv{
+            	margin: 0;
+                position: absolute;
+            }
+            .overlayBuilder{
+                visibility: hidden;
+            }
+            body{
+                margin: 0%;
+            }
+            .hiddenInspectMenu{
+                display: none;
+            }
+            .showInspectMenu{
+                position: absolute;
+                z-index: 5;
+                background-color: white;
+                padding: 2px;
+                display: block;
+                font-size: 20px;
+                margin:0;
+                list-style-type: none;
+                list-style: none;
+            }
+            .progressBar{
+                position: absolute;
+                z-index: 100;
+                background-color: white;
+            }
+            .fadein{
+                position:relative;
+                animation:fadein 0.2s
+            }
+            @keyframes fadein{
+                from{opacity:0} to{opacity:1}
+            }
+        </style>
+    </head>
+    <body id=main>
+        <div class="hiddenInspectMenu" id="inspectMenu">
+            <!--Right clicked objects go here-->
+        </div>
+    </body>
+</html>
