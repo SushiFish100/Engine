@@ -1,5 +1,5 @@
 # Engine
-A 2D game engine I made in 2020 to 2021 for fun and from scratch using NodeJS, HTML and CSS.
+A 2D game engine I made in 2020 to 2021 for fun and from scratch using JavaScript, NodeJS, HTML and CSS.
 
 ## Running the Engine
 To run the engine you must port forward and have NodeJS. You can port forward any port because you can change it in the Global/path.js file AND in the main.js file, but the default port provided, that you can port forward is 1337 if you do not want to change it to something else.
